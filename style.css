@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+
+}
+#main{
+  width: 100%;
+  height: 110vh;
+  position: absolute;
+  display: flex;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.05);
+  z-index: 1;
+}
+.menu{
+  list-style: none;
+  display: flex;
+}
+.logo{
+  width: 50px;
+  height: 40px;
+}
+.menu li a{
+  height: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.2cm;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: grey;
+}
+a{
+  text-decoration: none;
+}
+hey{
+  font-family: fantasy;
+  color: #39bfbd;
+  font-weight: 500;
+  font-size: 0.9cm;
+  border-bottom: 2px solid #39bfbd;
+}
+.image{
+  width: 500px;
+  height: 500px;
+  position: center;
+  
+}
+.image img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.content{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  left: 50%;
+  right:50%;
+}
+.main-text{
+  font-size: 1.5cm;
+  color: #1c3548;
+  margin: 0px 0px 10px 0px;
+}
+h1{
+  height: 19vh;
+}
+p{
+  font-size: .5cm;
+  display: flex;
+  height: 10vh;
+  color: grey;
+
+}
+.page{
+  width: 190px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #1db096;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  font-size: 20px;
+}
+.page:hover{
+  background-color: lightgreen;
+  transition: all ease 0.2s;
+}
